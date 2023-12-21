@@ -5,7 +5,7 @@ const Spline = React.lazy(() => import('@splinetool/react-spline'));
 export function Home() {
   return (
     <div className="w-full h-full max-sm:h-screen py-5 bg-zinc-800 flex justify-center gap-5 items-center flex-col">
-      <h1 className='font-bold text-2xl w-full text-center max-sm:text-xl text-white'>
+      <h1 className='font-bold text-2xl w-full text-center max-sm:text-lg text-white'>
           Bem-vindo ao meu universo digital em 3D! 🚀
       </h1>
       <Suspense fallback={
